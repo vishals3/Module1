@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<title>Module1 Assignment</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="angular.min.js"></script>
+ <script src="app.js"></script>
+
+</head>
+
+<body ng-controller="myCtrl">
+<div>
+<input type="text" ng-model="txtValue"  ng-class="inputBorder"></input>
+("We do NOT consider and empty item, i.e., , , as an item towards to the count")
+<br>
+ <p ng-class="class">{{result}}</p>
+</div>
+<div>
+<input type="submit" ng-click="CountItems();" value="Check If Too Much"></input>
+</div>
+
+</body>
+
+</html>

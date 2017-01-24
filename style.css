@@ -1,0 +1,48 @@
+.red{
+  color:red;
+}
+
+.green{
+  color:green;
+}
+
+.InputBorderRed{
+
+    border: 1px solid red;
+}
+
+.InputBorderGreen{
+
+    border: 1px solid green;
+}
+
+input[type=text], select {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 15px 15px;
+    display: inline-block;
+
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 15px;
+
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+p {
+    width: 200px;
+    color: white;
+    padding: 5px 5px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 4px;
+}
